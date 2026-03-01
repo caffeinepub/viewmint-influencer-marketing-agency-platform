@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication state, profile setup modal display, and routing between landing page and dashboard based on user authentication status.",
+  "frontend/src/hooks/useQueries.ts": "Comprehensive React Query hooks for all backend operations including user profiles, influencer/brand browsing, collaboration requests, contact forms, portfolio management, and admin functions.",
+  "frontend/src/components/Header.tsx": "Responsive header component with logo, navigation menu, and authentication button that adapts based on user login state.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with copyright notice and caffeine.ai attribution link.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Two-step modal for new users to select account type (influencer/brand) using proper UserType enum and complete their profile with relevant information.",
+  "frontend/src/pages/LandingPage.tsx": "Marketing landing page with hero section, about, services, portfolio showcase, and contact form for non-authenticated users.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard with tabbed interface for browsing, collaboration requests, profile management, and admin panel using proper UserType enum for type checking.",
+  "frontend/src/components/BrowseInfluencers.tsx": "Card-based grid displaying all influencers with their metrics, allowing brands to send collaboration requests.",
+  "frontend/src/components/BrowseBrands.tsx": "Card-based grid displaying all brands with their campaign details, allowing influencers to apply for opportunities.",
+  "frontend/src/components/CollaborationRequests.tsx": "Tabbed interface showing sent and received collaboration requests with accept/reject functionality using proper enum types for status updates.",
+  "frontend/src/components/MyProfile.tsx": "Profile management component with edit functionality and portfolio management for influencers using proper UserType enum for type checking.",
+  "frontend/src/components/AdminPanel.tsx": "Admin dashboard showing platform statistics and user management with ability to delete users and view contact submissions.",
+  "frontend/src/index.css": "Global styles with OKLCH-based purple-blue color system optimized for both light and dark modes with enhanced contrast and vibrant accent colors."
+}
